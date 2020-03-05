@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #610f85;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -450,7 +450,14 @@ footer {
     border-bottom: 1px solid $border;
 
     h2 {
-        color: $heading;
+        color: $heading;;
+    }
+
+    .avatar {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        border-radius: 50%;
     }
 
     p {
