@@ -448,15 +448,21 @@ footer {
 #about {
     padding: 75px 15px;
     border-bottom: 1px solid $border;
+    text-align: center;
+
+    .row{
+        display: flex;
+        height: 300px;
+        align-items: center;
+    }
 
     h2 {
-        color: $heading;;
+        color: $heading;
     }
 
     .avatar {
         width: 200px;
         height: 200px;
-        display: inline-block;
         border-radius: 50%;
     }
 
